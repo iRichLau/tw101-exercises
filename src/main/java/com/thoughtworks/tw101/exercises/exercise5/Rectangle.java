@@ -9,7 +9,8 @@ public class Rectangle {
         this.width = width;
     }
 
-    public int area(){
-        return -1;
+    public int area() {
+        int area = width * length;
+        return area;
     }
 }
