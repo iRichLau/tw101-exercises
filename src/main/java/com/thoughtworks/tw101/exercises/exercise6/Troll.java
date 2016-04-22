@@ -1,8 +1,8 @@
 package com.thoughtworks.tw101.exercises.exercise6;
 
 public class Troll implements Monster {
-    public int hitPoints;
-    public String name;
+    private int hitPoints;
+    private String name;
 
     public Troll(String name, int initialHitPoints) {
         this.name = name;

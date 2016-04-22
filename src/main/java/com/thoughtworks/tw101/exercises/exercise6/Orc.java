@@ -1,8 +1,8 @@
 package com.thoughtworks.tw101.exercises.exercise6;
 
 public class Orc implements Monster {
-    public int hitPoints;
-    public String name;
+    private int hitPoints;
+    private String name;
 
     public Orc(String name, int initialHitPoints) {
         this.name = name;
