@@ -4,9 +4,12 @@ package com.thoughtworks.tw101.exercises.exercise7;
 // right then tell them they win, otherwise tell them if they guessed too high or low. Keep asking the user to guess
 // until they get the right answer. Use classes to separate the different concerns of this program.
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-
+        new Game(new Scanner(System.in), System.out, new Random());
     }
 }
