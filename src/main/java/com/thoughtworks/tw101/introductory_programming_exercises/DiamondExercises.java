@@ -13,9 +13,12 @@ public class DiamondExercises {
 //             ***
 //            *****
     private static void drawAnIsoscelesTriangle(int n) {
-
+        String line = "";
+        for(int star = 0; star < n; star++){
+            line += "*";
+            System.out.println(line + "\n");
+        }
     }
-
 //    Diamond
 //    Given a number n, print a centered diamond. Example for n=3:
 //              *
