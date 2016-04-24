@@ -50,7 +50,7 @@ public class TriangleExercises {
         String line = "";
         for(int star = 0; star < n; star++){
             line += "*";
-            System.out.println(line + "\n");
+            System.out.println(line);
         }
     }
 }

@@ -13,11 +13,30 @@ public class DiamondExercises {
 //             ***
 //            *****
     private static void drawAnIsoscelesTriangle(int n) {
-        String line = "";
-        for(int star = 0; star < n; star++){
-            line += "*";
-            System.out.println(line + "\n");
+        for(int row = 0; row < n; row++) {
+            String line = "";
+            for(int space = n-1; space > row; space--) {
+                line += " ";
+            }
+
+            for(int star = 0; star <= row; star++){
+                line += "* ";
+            }
+
+            System.out.println(line);
         }
+
+       // for (int i = 1; i <= n; i+=2) {
+         //   for (int space = n; space >= i; space--) {
+           //     System.out.print(" ");
+            //}
+
+//            for (int star = 1; star <= i; star++) {
+  //              System.out.print("*");
+    //            System.out.print(" ");
+      //      }
+        //    System.out.println();
+//        }
     }
 //    Diamond
 //    Given a number n, print a centered diamond. Example for n=3:
